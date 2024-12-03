@@ -96,7 +96,7 @@ function StudentForm() {
               <div className="modal-footer">
                 <button
                   type="button"
-                  className="btn btn-secondary"
+                  className="btn btn-secondary "
                   onClick={() => setShowModal(false)}
                 >
                   Cancel
