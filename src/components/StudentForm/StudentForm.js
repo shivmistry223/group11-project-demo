@@ -46,6 +46,7 @@ function StudentForm() {
   return (
     <div className="container mt-5">
       <h1 className="text-center mb-4">Student Form</h1>
+      <h1 className="text-center mb-4">Student Updated form</h1>
 
       <button
         className="btn btn-primary mb-4"
