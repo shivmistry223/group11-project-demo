@@ -47,7 +47,6 @@ function StudentForm() {
     <div className="container mt-5">
       <h1 className="text-center mb-4">Student Form</h1>
 
-      {/* Insert Button */}
       <button
         className="btn btn-primary mb-4"
         onClick={() => setShowModal(true)}
@@ -55,7 +54,6 @@ function StudentForm() {
         Insert Student
       </button>
 
-      {/* Insert Modal */}
       {showModal && (
         <div
           className="modal show d-block"
