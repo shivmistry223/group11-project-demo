@@ -5,6 +5,7 @@ import StudentForm from "./components/StudentForm/StudentForm";
 function App() {
   return (
     <div className="App">
+      <h1>PROJECT</h1>
       <StudentForm />
     </div>
   );
