@@ -19,11 +19,19 @@ jobs:
         with:
           node-version: 16
 
-      - name: Install dependencies
+      - name: Install dependencies.
         run: npm install
 
       - name: Run tests
         run: npm test -- --watchAll=false
+
+      - name: Build project
+        run: npm run build
+
+      - name: Build Docker Image
+        run: |
+          docker build -t GRP-11 .
+          echo "Docker image built successfully!"
 
       # - name: Build Docker image
       #   run: |
